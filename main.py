@@ -29,9 +29,9 @@ def menu():
         escolha = input("Escolha uma opção: ")
         if escolha == "1":
             cadastrar_usuario()
-        if escolha == "2":
+        elif escolha == "2":
             exibir_usuarios()
-        if escolha == "3":
+        elif escolha == "3":
             print("Saindo...")
             break
         else:
